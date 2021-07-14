@@ -1,6 +1,7 @@
 // import Image from 'next/image'
 import SiteTopBar from '../components/SiteTopBar';
 import SiteHtmlHead from '../components/SiteHtmlHead';
+import HomeMain from '../components/Home/HomeMain';
 
 export default function Home(props) {
   const { site } = props
@@ -8,6 +9,7 @@ export default function Home(props) {
     <>
       <SiteHtmlHead {...site} />
       <SiteTopBar/>
+      <HomeMain/>
     </>
   )
 }
